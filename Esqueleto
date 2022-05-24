@@ -1,0 +1,8 @@
+Soma(elemento1, elemento2)
+  retornar a soma
+divisao (elemento1, elemento2)
+  retornar a divisao
+subtracao (elemento1, elemento2)
+  retornar a subtracao
+multiplicacao (elemento1, elemento2)
+  retornar a multiplicacao
