@@ -49,3 +49,14 @@ leia(n2)
 divisao <- n1 / n2
 retorne divisao
 fimfuncao
+funcao f_multiplicacao(p_n1, p_n2 : real) : real
+var
+n1, n2, multiplicacao : real
+inicio
+escreval("Digite o 1o número: ")
+leia(n1)
+escreval("Digite o 2o número: ")
+leia(n2)
+multiplicacao <- n1* n2
+retorne multiplicacao
+fimfuncao
