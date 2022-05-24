@@ -9,7 +9,7 @@ multiplicacao (elemento1, elemento2)
 var
 n1, n2 : real
 
-funcao f_somar (p_n1, p_n2 : real) : real
+funcao f_soma (p_n1, p_n2 : real) : real
 var
 n1, n2, soma : real
 inicio
@@ -23,4 +23,17 @@ fimfuncao
 
 inicio 
 escreval("A soma dos números é: ", f_somar(n1,n2))
+
+
+funcao f_subtracao (p_n1, p_n2 : real) : real
+var
+n1, n2, subtracao : real
+inicio
+escreval("Digite o 1o número: ")
+leia(n1)
+escreval("Digite o 2o número: ")
+leia(n2)
+subtracao <- n1 - n2
+retorne subtracao
+fimfuncao
 fimalgoritmo
