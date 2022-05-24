@@ -37,6 +37,7 @@ subtracao <- n1 - n2
 retorne subtracao
 fimfuncao
 fimalgoritmo
+
 funcao f_divisao (p_n1, p_n2 : real) : real
 var
 n1, n2, divisao : real
