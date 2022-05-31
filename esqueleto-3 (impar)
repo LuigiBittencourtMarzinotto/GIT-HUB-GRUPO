@@ -1,1 +1,15 @@
+Var
+   numero : inteiro
 
+Inicio
+   escreval ("Informe um número: ")
+   leia(numero)
+   se numero mod 2 = 1 entao
+      escreva("O número", numero, " é ímpar")
+      senao
+      escreva("NÃO É íMPAR")
+   fimse
+
+
+
+Fimalgoritmo
