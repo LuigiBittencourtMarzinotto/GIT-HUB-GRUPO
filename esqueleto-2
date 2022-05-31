@@ -1,1 +1,22 @@
+Var
+// Seção de Declarações das variáveis 
+c, i, n1, n2, p: inteiro
 
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva ("Digite um número incial: ")
+leia(n1)
+escreva ("Digite um número final: ")
+leia (n2)
+para c de n1 ate n2 faca
+     p<-0
+     para i de n1 ate c faca
+          se(cmod i=0) entao
+                  p<-p+1
+          fimse
+     fimpara
+     se (p=2) entao
+        escreva (c)
+     fimse
+fimpara
+Fimalgoritmo
